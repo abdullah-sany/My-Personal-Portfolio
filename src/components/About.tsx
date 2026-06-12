@@ -16,7 +16,7 @@ export function About() {
           <div className="absolute inset-0 bg-gradient-to-t from-app-bg via-transparent to-transparent z-10" />
           <div className="absolute inset-0 bg-blue-900/20 md:mix-blend-overlay z-10 group-hover:bg-transparent transition-colors duration-700" />
           <img
-            src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?q=80&w=2070&auto=format&fit=crop"
+            src="https://raw.githubusercontent.com/abdullah-sany/Asset/main/Sany.png"
             alt="MD Abdullah Sany"
             loading="lazy"
             decoding="async"
@@ -55,14 +55,10 @@ export function About() {
             </h2>
             <div className="space-y-4 text-muted-text text-lg font-light leading-relaxed">
               <p>
-                I am an AI-Hybrid Developer and Full-Stack Engineer specializing
-                in bridging the gap between complex neural integrations and
-                pristine, Apple-tier user experiences.
+                I am an AI-Hybrid Developer, Prompt Engineer, and Automation Specialist dedicated to building smarter digital experiences. Leveraging Generative AI, Python Development, Advanced Prompt Engineering, AI Automation, and Creative Design, I transform complex ideas into intelligent solutions that enhance productivity, creativity, and innovation.
               </p>
               <p>
-                My expertise spans across the MERN stack, Next.js architectures,
-                and advanced Prompt Engineering to build scalable automation
-                systems that feel like magic.
+                My mission is to bridge the gap between human imagination and the limitless potential of artificial intelligence.
               </p>
             </div>
           </motion.div>
