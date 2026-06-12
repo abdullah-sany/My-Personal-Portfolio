@@ -37,215 +37,111 @@ const CATEGORIES = {
   ALL: "All Projects",
   ROBOTICS: "Innovation & Robotics",
   WEB: "Web Systems & AI Platforms",
-  GAMES: "Games & Interactive Experiences",
 };
 
 const PROJECTS = [
   // INNOVATION & ROBOTICS
   {
-    id: "vtol-drone",
+    id: 'vtol-drone',
     category: CATEGORIES.ROBOTICS,
-    title: "VTOL Drone System",
-    type: "Innovation Project",
-    description:
-      "A futuristic vertical take-off and landing drone engineered for intelligent surveillance, autonomous navigation, and payload delivery systems.",
-    techStack: ["C++", "Arduino", "Flight Dynamics", "Embedded Systems"],
+    title: 'VTOL Drone System',
+    type: 'Innovation Project',
+    description: 'A futuristic vertical take-off and landing drone engineered for intelligent surveillance, autonomous navigation, and payload delivery systems.',
+    techStack: ['C++', 'Arduino', 'Flight Dynamics', 'Embedded Systems'],
     icon: Plane,
-    color: "from-electric-blue to-cyan-400",
-    bgImage:
-      "https://images.unsplash.com/photo-1579822989182-f38b4dfa2fd5?q=80&w=1000&auto=format&fit=crop",
+    color: 'from-electric-blue to-cyan-400',
+    bgImage: 'https://raw.githubusercontent.com/abdullah-sany/Asset/main/vtol-drone.jpeg',
+    liveUrl: 'https://github.com/abdullah-sany/vtol-drone/',
     featured: true,
   },
   {
-    id: "mini-supply",
+    id: 'mini-supply',
     category: CATEGORIES.ROBOTICS,
-    title: "Mini Supply Drone",
-    type: "Emergency Delivery",
-    description:
-      "Compact autonomous drone system designed for short-range medical and emergency supply delivery operations.",
-    techStack: ["Python", "OpenCV", "Embedded Systems"],
+    title: 'Mini Supply Drone',
+    type: 'Emergency Delivery',
+    description: 'Compact autonomous drone system designed for short-range medical and emergency supply delivery operations.',
+    techStack: ['Python', 'OpenCV', 'Embedded Systems'],
     icon: Box,
-    color: "from-emerald-400 to-teal-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1527443154391-426175b5baf3?q=80&w=1000&auto=format&fit=crop",
+    color: 'from-emerald-400 to-teal-500',
+    bgImage: 'https://raw.githubusercontent.com/abdullah-sany/Asset/main/mini-supply.png',
+    liveUrl: 'https://github.com/abdullah-sany/mini-supply/',
   },
 
   // WEB SYSTEMS & AI PLATFORMS
   {
-    id: "blood-donation",
+    id: 'blood-donation',
     category: CATEGORIES.WEB,
-    title: "Blood Donation Platform",
-    type: "Realtime Humanitarian Platform",
-    description:
-      "A realtime blood donation ecosystem connecting donors and patients across Bangladesh during emergency situations.",
-    techStack: ["React", "Node.js", "MongoDB", "Express.js"],
+    title: 'Blood Donation Platform',
+    type: 'Realtime Humanitarian Platform',
+    description: 'A realtime blood donation ecosystem connecting donors and patients across Bangladesh during emergency situations.',
+    techStack: ['React', 'Node.js', 'MongoDB', 'Express.js'],
     icon: Heart,
-    color: "from-red-500 to-rose-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1615461066841-6116e61058f4?q=80&w=1000&auto=format&fit=crop",
+    color: 'from-red-500 to-rose-500',
+    bgImage: 'https://raw.githubusercontent.com/abdullah-sany/Asset/main/BloodDonation.png',
+    liveUrl: 'https://github.com/abdullah-sany/blood-donation/',
     featured: true,
   },
   {
-    id: "portfolio-enhancer",
+    id: 'portfolio-enhancer',
     category: CATEGORIES.WEB,
-    title: "Portfolio Enhancer",
-    type: "AI-Powered Resume System",
-    description:
-      "An intelligent portfolio and resume generation platform using AI to instantly generate premium PDF resumes and dynamic layouts.",
-    techStack: ["TypeScript", "React", "OpenAI API", "PDF Systems"],
+    title: 'Portfolio Enhancer',
+    type: 'AI-Powered Resume System',
+    description: 'An intelligent portfolio and resume generation platform using AI to instantly generate premium PDF resumes and dynamic layouts.',
+    techStack: ['TypeScript', 'React', 'OpenAI API', 'PDF Systems'],
     icon: FileText,
-    color: "from-purple-500 to-indigo-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+    color: 'from-purple-500 to-indigo-500',
+    bgImage: 'https://raw.githubusercontent.com/abdullah-sany/Asset/main/portfolio-enhancer.png',
+    liveUrl: 'https://github.com/abdullah-sany/portfolio-enhancer/',
   },
   {
-    id: "commerce-mini",
+    id: 'commerce-mini',
     category: CATEGORIES.WEB,
-    title: "E-Commerce Mini",
-    type: "Modern Commerce Interface",
-    description:
-      "A lightweight high-performance e-commerce experience focused on speed, clean UI, and seamless shopping interactions.",
-    techStack: ["JavaScript", "Tailwind", "Local Storage"],
+    title: 'E-Commerce Mini',
+    type: 'Modern Commerce Interface',
+    description: 'A lightweight high-performance e-commerce experience focused on speed, clean UI, and seamless shopping interactions.',
+    techStack: ['JavaScript', 'Tailwind', 'Local Storage'],
     icon: ShoppingBag,
-    color: "from-orange-400 to-amber-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1000&auto=format&fit=crop",
+    color: 'from-orange-400 to-amber-500',
+    bgImage: 'https://raw.githubusercontent.com/abdullah-sany/Asset/main/commerce-mini.png',
+    liveUrl: 'https://github.com/abdullah-sany/commerce-mini/',
   },
   {
-    id: "smart-converter",
+    id: 'smart-converter',
     category: CATEGORIES.WEB,
-    title: "Smart Converter",
-    type: "Utility & Productivity",
-    description:
-      "An all-in-one smart conversion and scientific calculation system with intelligent history tracking and PWA functionality.",
-    techStack: ["Vue.js", "Math.js", "PWA"],
+    title: 'Smart Converter',
+    type: 'Utility & Productivity',
+    description: 'An all-in-one smart conversion and scientific calculation system with intelligent history tracking and PWA functionality.',
+    techStack: ['Vue.js', 'Math.js', 'PWA'],
     icon: Calculator,
-    color: "from-cyan-500 to-electric-blue",
-    bgImage:
-      "https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=1000&auto=format&fit=crop",
+    color: 'from-cyan-500 to-electric-blue',
+    bgImage: 'https://raw.githubusercontent.com/abdullah-sany/Asset/main/smart-converter.png',
+    liveUrl: 'https://github.com/abdullah-sany/smart-converter/',
   },
   {
-    id: "task-master",
+    id: 'task-master',
     category: CATEGORIES.WEB,
-    title: "Task Master",
-    type: "Productivity Dashboard",
-    description:
-      "A modern productivity ecosystem featuring drag-and-drop task management, realtime analytics, and workflow optimization.",
-    techStack: ["React", "Redux", "Firebase"],
+    title: 'Task Master',
+    type: 'Productivity Dashboard',
+    description: 'A modern productivity ecosystem featuring drag-and-drop task management, realtime analytics, and workflow optimization.',
+    techStack: ['React', 'Redux', 'Firebase'],
     icon: CheckSquare,
-    color: "from-blue-400 to-indigo-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1507925922837-326f12d9348d?q=80&w=1000&auto=format&fit=crop",
+    color: 'from-blue-400 to-indigo-500',
+    bgImage: 'https://raw.githubusercontent.com/abdullah-sany/Asset/main/task-master.png',
+    liveUrl: 'https://github.com/abdullah-sany/task-master/',
   },
   {
-    id: "skycast-weather",
+    id: 'skycast-weather',
     category: CATEGORIES.WEB,
-    title: "Skycast Weather",
-    type: "Realtime Intelligence System",
-    description:
-      "A location-aware weather intelligence application delivering realtime forecasts, severe weather alerts, and atmospheric analytics.",
-    techStack: ["JavaScript", "OpenWeatherMap", "Geolocation"],
+    title: 'Skycast Weather',
+    type: 'Realtime Intelligence System',
+    description: 'A location-aware weather intelligence application delivering realtime forecasts, severe weather alerts, and atmospheric analytics.',
+    techStack: ['JavaScript', 'OpenWeatherMap', 'Geolocation'],
     icon: CloudRain,
-    color: "from-cyan-300 to-electric-blue",
-    bgImage:
-      "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=1000&auto=format&fit=crop",
-  },
-
-  // GAMES & INTERACTIVE
-  {
-    id: "adaptive-enemy",
-    category: CATEGORIES.GAMES,
-    title: "Adaptive Enemy AI",
-    type: "ML Game AI Demo",
-    description:
-      "An experimental AI enemy system where enemies dynamically learn from player behavior using neural network logic.",
-    techStack: ["Python", "PyGame", "TensorFlow"],
-    icon: Cpu,
-    color: "from-red-500 to-orange-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1000&auto=format&fit=crop",
-    featured: true,
-  },
-  {
-    id: "climate-survival",
-    category: CATEGORIES.GAMES,
-    title: "Climate Survival BD",
-    type: "Educational Survival",
-    description:
-      "A narrative survival game set in future Bangladesh focusing on climate change awareness and environmental storytelling.",
-    techStack: ["Unity", "C#", "Pixel Art"],
-    icon: ShieldAlert,
-    color: "from-emerald-500 to-green-600",
-    bgImage:
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1000&auto=format&fit=crop",
-  },
-  {
-    id: "time-freeze",
-    category: CATEGORIES.GAMES,
-    title: "Time Freeze Puzzle",
-    type: "Puzzle Mechanics",
-    description:
-      "A logic puzzle game where players manipulate time mechanics to solve advanced mechanical and environmental riddles.",
-    techStack: ["Godot", "GDScript"],
-    icon: Hourglass,
-    color: "from-blue-400 to-purple-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1506318137071-a4870f74eedf?q=80&w=1000&auto=format&fit=crop",
-  },
-  {
-    id: "campus-treasure",
-    category: CATEGORIES.GAMES,
-    title: "Campus Treasure AR",
-    type: "AR Exploration",
-    description:
-      "An immersive university AR experience allowing students to discover hidden digital artifacts using geolocation systems.",
-    techStack: ["WebXR", "Three.js", "Geolocation"],
-    icon: Map,
-    color: "from-teal-400 to-cyan-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop",
-  },
-  {
-    id: "memory-echo",
-    category: CATEGORIES.GAMES,
-    title: "Memory Echo",
-    type: "Narrative Intelligence",
-    description:
-      "A story-driven game where narrative outcomes dynamically adapt based on player memory and previous interactions.",
-    techStack: ["JavaScript", "NLP", "Text Adventure"],
-    icon: Eye,
-    color: "from-indigo-400 to-purple-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1000&auto=format&fit=crop",
-  },
-  {
-    id: "flappy",
-    category: CATEGORIES.GAMES,
-    title: "Flappy Bird Clone",
-    type: "Arcade Recreation",
-    description:
-      "A faithful recreation of the classic arcade game featuring enhanced physics systems and competitive global leaderboards.",
-    techStack: ["HTML5 Canvas", "Physics Engine"],
-    icon: Bird,
-    color: "from-yellow-400 to-orange-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=1000&auto=format&fit=crop",
-  },
-  {
-    id: "tictactoe-ai",
-    category: CATEGORIES.GAMES,
-    title: "Tic Tac Toe AI",
-    type: "AI Strategy",
-    description:
-      "A classic strategy game powered by an unbeatable AI opponent using advanced Minimax decision algorithms.",
-    techStack: ["React", "Algorithms", "Game Theory"],
-    icon: Target,
-    color: "from-red-400 to-rose-500",
-    bgImage:
-      "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=1000&auto=format&fit=crop",
+    color: 'from-cyan-300 to-electric-blue',
+    bgImage: 'https://raw.githubusercontent.com/abdullah-sany/Asset/main/skycast-weather.png',
+    liveUrl: 'https://github.com/abdullah-sany/skycast-weather/',
   },
 ];
-
 function FilterTab({ label, active, onClick, icon: Icon }: any) {
   return (
     <button
@@ -657,12 +553,6 @@ export function Projects() {
             active={activeCategory === CATEGORIES.WEB}
             icon={Server}
             onClick={() => setActiveCategory(CATEGORIES.WEB)}
-          />
-          <FilterTab
-            label={CATEGORIES.GAMES}
-            active={activeCategory === CATEGORIES.GAMES}
-            icon={Gamepad2}
-            onClick={() => setActiveCategory(CATEGORIES.GAMES)}
           />
         </div>
       </div>
