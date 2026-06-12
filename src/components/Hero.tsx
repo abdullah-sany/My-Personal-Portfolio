@@ -32,12 +32,12 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Crafting Intelligent <br />
+            Transforming Ideas Into <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue to-cyan-300">
-              Digital Experiences
+              Intelligent AI Systems
             </span>{" "}
             <br />
-            Powered by AI.
+            and Digital Experiences.
           </motion.h1>
 
           <motion.p
@@ -46,7 +46,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            AI-Hybrid Developer • Full-Stack Engineer • Automation Specialist
+            AI-Hybrid Developer • AI Solutions Builder • Automation Specialist
             <br className="hidden md:block" /> Architecting the future of
             scalable web systems.
           </motion.p>
@@ -89,7 +89,7 @@ export function Hero() {
             {[
               {
                 Icon: Github,
-                href: "https://github.com/mdabdulllahsany-ai",
+                href: "https://github.com/abdullah-sany",
                 label: "GitHub",
               },
               {
