@@ -90,7 +90,7 @@ export function Footer() {
           {[
             {
               Icon: Github,
-              href: "https://github.com/mdabdulllahsany-ai",
+              href: "https://github.com/abdullah-sany",
               label: "GitHub",
             },
             {
