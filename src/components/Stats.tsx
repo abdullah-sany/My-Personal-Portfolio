@@ -4,10 +4,10 @@ import { useEffect, useState } from 'react';
 
 export function Stats() {
   const stats = [
-    { label: 'Projects Completed', value: 42, icon: Terminal },
-    { label: 'AI Systems Built', value: 15, icon: Cpu },
-    { label: 'Happy Clients', value: 36, icon: ShieldCheck },
-    { label: 'Database Architectures', value: 24, icon: Database },
+    { label: 'Projects Completed', value: 25, icon: Terminal },
+    { label: 'AI Systems Built', value: 20, icon: Cpu },
+    { label: 'Happy Clients', value: 15, icon: ShieldCheck },
+    { label: 'Database Architectures', value: 10, icon: Database },
   ];
 
   return (
